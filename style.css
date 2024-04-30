@@ -1,5 +1,7 @@
 *{
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .cabecalho{
@@ -12,7 +14,53 @@
 }
 .foto-inicio{
     background-image: url("img1.jpg");
-    height: 1080px;
+    height: 800px;
     width: 1920px;
+    background-position: -20px 0px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px;
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+.txt1{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: row;
+    vertical-align: auto;
+}
+.txt2{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: row;
+    vertical-align: auto;
+    padding: 10px;
+    width: 30%;
+    margin: center;
+}
+.butn1{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-direction: row;
+    vertical-align: auto;
+    padding: 100px;
+    margin: center;
 }
