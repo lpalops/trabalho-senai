@@ -1,4 +1,18 @@
+*{
+
+}
+
 .cabecalho{
-    background-color: black;
+    background-color: rgba(28,28,28,255);
     color: white;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+.foto-inicio{
+    background-image: url("img1.jpg");
+    height: 1080px;
+    width: 1920px;
+    
 }
