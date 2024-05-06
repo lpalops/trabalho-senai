@@ -22,7 +22,7 @@
 .foto-inicio{
     background-image: url("img1.jpg");
     height: 800px;
-    width: 1950px;
+    width: 1903px;
     background-position: -20px -200px;
     background-size: cover;
     display: flex;
@@ -164,7 +164,7 @@
     display: flex;
     background-color: rgb(34, 32, 32);
     width: 100%;
-    height: 350px;
+    height: 351px;
     color: white;
     display: flex;
     justify-content: center;
