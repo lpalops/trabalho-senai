@@ -220,12 +220,13 @@
     width: 100%;
     height: 1200px;
     color: white;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
     align-items: center;
     font-family: "Khula", sans-serif;
     font-weight: 300;
     font-style: normal;
+    gap: 100px;
 }
 .textos3{
     width: 100%;
@@ -274,27 +275,3 @@
     justify-content: center;
     padding-left: 200px ;
 }
-
-.setas{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 120px;
-    border-radius: 10px;
-    scale: 300%;
-}
-.seta-dir{
-    padding-right: 20px;
-    border: none;
-    font-weight: bold;
-    background-color: black;
-}
-
-.seta-esq{
-    padding-right: 20px;
-    border: none;
-    font-weight: bold;
-    background-color: black;
-}
-
-
