@@ -211,7 +211,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: contain;a
+    background-size: contain;
 }
 
 .ultima-tela-giga{
@@ -314,5 +314,20 @@ button{
     margin: center;
 }
 .cadastro{
+    display: flex;
     padding-top: 50px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.nome{
+    gap: 500px;
+}
+
+.trab-input{
+    width: 100%;
+    background-color: rgba(64,64,64,255);
+    border: none;
+    height: 20px;
+    border-radius: 5px;
 }
