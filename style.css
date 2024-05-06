@@ -207,11 +207,19 @@
 .homem-bnt{
     background-image: url(img3.jpg);
     height: 100%;
+<<<<<<< HEAD
     width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-size: cover;
+=======
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+>>>>>>> 6012378464f90ee3d06e13566e593951f6af651c
 }
 
 .ultima-tela-giga{
