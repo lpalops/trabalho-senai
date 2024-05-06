@@ -206,7 +206,7 @@
 
 .homem-bnt{
     background-image: url(img3.jpg);
-    height: 130%;
+    height: 100%;
     width: 40%;
     display: flex;
     justify-content: center;
@@ -228,7 +228,8 @@
     font-style: normal;
 }
 .textos3{
-    width: 60%;
+    width: 100%;
+    flex-direction: column;
 
 }
 .txt8{
@@ -239,8 +240,10 @@
     font-family: "Khula", sans-serif;
     font-weight: 300;
     font-style: normal;
-    padding-left: 550px;
+    padding-left: 300px;
+    padding-top: 120px;
     font-size: xx-large;
+    width: 1200px;
  
 
 }
@@ -252,12 +255,13 @@
     font-family: "Khula", sans-serif;
     font-weight: 300;
     font-style: normal;
-    padding-left: 550px;
-    font-size: x-large;
-
+    padding-left: 300px;
+    padding-top: 20px;
+    font-size: xx-large;
+    width: 1200px;
 }
 
-button{
+.butn1{
     text-decoration: none;
     border: none;
     font-family: "Kite One", sans-serif;
@@ -266,15 +270,31 @@ button{
     font-size: 1.2rem
 }
 
-button{
-    text-decoration: none;
-    border: none;
-    font-family: "Kite One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.2rem
-}
 .botaunenviar{
     justify-content: center;
     padding-left: 200px ;
 }
+
+.setas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    border-radius: 10px;
+    scale: 300%;
+}
+.seta-dir{
+    padding-right: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: black;
+}
+
+.seta-esq{
+    padding-right: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: black;
+}
+
+
