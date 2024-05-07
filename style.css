@@ -210,7 +210,7 @@
 
 .parte-branca{
     display: flex;
-    background-color: rgba(245,245,245,255);
+    background-color: rgba(245,244,245,255);
     width: 100%;
     height: 700px;
     flex-direction: row;
