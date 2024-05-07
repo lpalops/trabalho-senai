@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+.taca{
+    background-image: url(Logo.png);
+    display: flex;
+    height: 32px;
+    width: 31px;
+    background-size: cover;
+    padding-left: 30px;
+
+}
+
 .cabecalho{
     background-color: rgba(28,28,28,255);
     color: white;
@@ -14,10 +24,11 @@
 
 }
 .my-event{
+    display: flex;
     font-family: "Klee One", cursive;
     font-weight: 400;
     font-style: normal;
-    padding-left: 30px;
+    padding-bottom: 5px;
 }
 .foto-inicio{
     background-image: url("img1.jpg");
@@ -214,9 +225,10 @@
 
 .parte-branca{
     display: flex;
-    background-color: rgb(245, 235, 235);
+    background-color: rgba(245,245,245,255);
     width: 100%;
     height: 700px;
+    flex-direction: row;
 }
 
 .homem-bnt{
@@ -245,7 +257,7 @@
 }
 .textos3{
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 .txt8{
@@ -413,4 +425,126 @@ button.botaoenviar{
     align-items: center;
     scale:15%;
     padding-right: 350px;
+}
+
+.botaoproximo{
+    border: none;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    scale: 200%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.botaoanterior{
+    border: none;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    scale: 200%;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+
+.botaoanterior:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+
+.botaoproximo:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+
+.seta-dir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row ;
+
+}
+
+.seta-esq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.setas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+.botaoproximo{
+    border: none;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    scale: 200%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.botaoanterior{
+    border: none;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    scale: 200%;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+
+.botaoanterior:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+
+.botaoproximo:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+
+.seta-dir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row ;
+
+}
+
+.seta-esq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.setas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 250px;
+    padding-left: 100px;
 }
