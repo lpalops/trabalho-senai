@@ -8,6 +8,8 @@
 .taca{
     background-image: url(Logo.png);
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 32px;
     width: 31px;
     background-size: cover;
@@ -21,11 +23,12 @@
     min-height: 72.5px;
     display: flex;
     align-items: center;
+    gap: 10px;
 
 }
 .my-event{
     display: flex;
-    font-family: "Klee One", cursive;
+    font-family: "Klee One";
     font-weight: 400;
     font-style: normal;
     padding-bottom: 5px;
