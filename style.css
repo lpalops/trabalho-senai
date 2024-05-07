@@ -393,6 +393,7 @@
     padding-bottom: 20px;
     justify-content: center;
     align-items: center;
+    border: 1px solid gray;
 }
 
 button.botaoenviar{
